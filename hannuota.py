@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 #汉诺塔问题
 def move(n,a,b,c):
     if n==1:
