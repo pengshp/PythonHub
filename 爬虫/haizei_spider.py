@@ -42,8 +42,8 @@ if __name__=='__main__':
 	url='http://www.fzdm.com/manhua/002/'
 	value1=802
 	while True:
-		#open_url(url)
-		VALUEL=get_value(url)
+		html=open_url(url)
+		VALUEL=get_value(html)
 		if VALUEL>value1:
 			send_mail()
 			print('发送邮件成功！')
