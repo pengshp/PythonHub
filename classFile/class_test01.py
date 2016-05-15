@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#-*-coding: UTF-8-*-
+# -*-coding: UTF-8-*-
 __author__ = 'pengshp'
 
 std1={'name': 'Michael', 'score':98}
