@@ -6,6 +6,6 @@ import urllib
 import request
 url='http://www.baidu.com/'
 req=urllib.Request(url, data=None, headers={}, origin_req_host=None, unverifiable=False)
-response=urllib.urlo(req)
+response=urllib.urlopen(req)
 the_page=response.read()
 print (the_page)
