@@ -7,3 +7,7 @@
 *.png
 
 *.csv
+
+/.DS_Store/
+
+/.idea/
