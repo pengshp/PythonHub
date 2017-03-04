@@ -8,6 +8,10 @@
 
 *.csv
 
+*.db
+
+*.jpg
+
 /.DS_Store/
 
 /.idea/
