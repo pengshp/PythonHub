@@ -17,6 +17,8 @@
 
 * [Python数据库](http://www.maiziedu.com/course/573/)
 
+* [Python数据可视化分析 - matplotlib](http://www.maiziedu.com/course/709/)
+
 ### Mial
 pengshp@gmail.com
 
