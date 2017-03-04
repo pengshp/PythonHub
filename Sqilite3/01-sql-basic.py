@@ -8,7 +8,7 @@
 @contact: pengshp@gmail.com
 @site: https://pengshp.github.io
 @software: PyCharm Community Edition
-@file: pysqilit301.py
+@file: 01-sql-basic.py
 @time: 2017/3/4 下午10:10
 """
 from sqlite3 import connect
@@ -45,8 +45,8 @@ def main():
     sql_select()
     sql_update()
     sql_select()
-    con.commit()
-    con.close()
+    con.commit()  # 提交事务
+    con.close()  # 操作完成后关闭连接对象
 
 
 if __name__ == '__main__':
