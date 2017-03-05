@@ -1,5 +1,5 @@
 ### 简介
-PyQt5是Python的GUI图形开发库！是Qt的Python实现，语法与Qt类似。使用GIL商业授权，
+PyQt5是Python的GUI图形开发库！是Qt的Python实现，语法与Qt类似。使用GPL商业授权，
 开发商业应用需要购买版权，对自由软件开发免费！
 
 ### 安装
