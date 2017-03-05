@@ -4,14 +4,14 @@
 __author__ = 'pengshp'
 
 import sys
-from PyQt5.QtWidgets import QApplication,QWidget
+from PyQt5.QtWidgets import QApplication, QWidget
 
 if __name__ == '__main__':
-    app=QApplication(sys.argv)
+    app = QApplication(sys.argv)
 
-    w=QWidget()
-    w.resize(250,150)
-    w.move(300,300)
+    w = QWidget()
+    w.resize(250, 150)
+    w.move(300, 300)
     w.setWindowTitle('First PyQt5!')
     w.show()
 

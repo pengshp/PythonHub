@@ -12,8 +12,9 @@
 @time: 2016/5/15 0015 15:33
 """
 import sys
-from PyQt5.QtWidgets import QWidget,QApplication
+from PyQt5.QtWidgets import QWidget, QApplication
 from PyQt5.QtGui import QIcon
+
 
 class Exp(QWidget):
     def __init__(self):
@@ -22,12 +23,13 @@ class Exp(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Icon')
-        self.setGeometry(300,200,300,200)
+        self.setGeometry(300, 200, 300, 200)
         self.setWindowIcon(QIcon('heart.ico'))
 
         self.show()
 
+
 if __name__ == '__main__':
-    app=QApplication(sys.argv)
-    ex=Exp()
+    app = QApplication(sys.argv)
+    ex = Exp()
     sys.exit(app.exec_())
