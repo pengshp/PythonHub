@@ -17,16 +17,21 @@ from PyQt5.QtGui import QIcon
 
 
 class Exp(QWidget):
-    def __init__(self):
-        super().__init__()
-        self.initUI()
+    def __init__(self，
 
-    def initUI(self):
-        self.setWindowTitle('Icon')
-        self.setGeometry(300, 200, 300, 200)
-        self.setWindowIcon(QIcon('heart.ico'))
+    parent = None):
+    super().__init__(self, parent)
+    self.initUI()
 
-        self.show()
+
+def initUI(self):
+    self.setWindowTitle('Icon')
+    # 设置窗口在屏幕上的位置x,y坐标，后两个参数的窗口的大小
+    self.setGeometry(300, 200, 300, 200)
+    # 设置图标
+    self.setWindowIcon(QIcon('heart.ico'))
+
+    self.show()
 
 
 if __name__ == '__main__':

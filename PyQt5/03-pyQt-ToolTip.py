@@ -22,7 +22,7 @@ class exp(QWidget):
         self.initUI()
 
     def initUI(self):
-        QToolTip.setFont(QFont('SansSerif', 10))
+        QToolTip.setFont(QFont('SansSerif', 10))  # 设置字体
         self.setToolTip('This is a <b>widget</b>')
         btn = QPushButton('push', self)
         btn.setToolTip('press and push')
