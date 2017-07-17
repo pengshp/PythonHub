@@ -2,10 +2,10 @@
 这是我的Python3的代码库！不断更新中.... 
 
 ### 版本
-* Python3.4.3
+* Python3.6.1
 
 ### 环境
-* Mac OSX 10.12.3
+* Mac OSX 10.12.5
 * PyCharm Community Edition
 
 ### 参考教程
